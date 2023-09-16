@@ -1,5 +1,4 @@
-// const chalk = require("chalk")
-
+// cl
 // console.log(chalk.blue.italic("hello world"));
 const validator = require("validator");
 const res = validator.isEmail("shlokjagtap.0608@gmail.com")
