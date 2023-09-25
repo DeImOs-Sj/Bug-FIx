@@ -1,0 +1,11 @@
+{
+    "name": "Daniel", 
+    "age": "28", 
+     "phone_number": 
+        "9988667711",
+     
+    "education": { 
+     "school_name": "Royal Heritage School",
+        "number": 25
+    }
+}
