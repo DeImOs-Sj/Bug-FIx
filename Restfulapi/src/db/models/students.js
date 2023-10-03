@@ -17,6 +17,20 @@ const studentSchema = new mongoose.Schema({
                     throw new Error("Invalid Email")
                 }
             }
-        }
+    },
+    phone: {
+        type: Number,
+       
+        required: true,
+        unique:true,
+    },
+    address: {
+        type: String,
+        required:true,
+    }
+
     
 })
+
+const Student = new mongoose.model('Student', studentSchema);
+module.exports = Student;
